@@ -6,14 +6,39 @@ body {
   font-family: sans-serif;
 }
 
-header{
-  text-align: center;
-  background-image:linear-gradient(to left,#D9C49C,#A67B56,#734B34,#403332);
+header {
+  background-image: linear-gradient(to left, #D9C49C, #A67B56, #734B34, #403332);
   width: 1200px;
   height: 200px;
   padding: 29px;
-  color: rgb(240, 240, 240);
+}
+
+h1 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+}
+
+p {
+  text-align: center;
+  color: rgb(255, 255, 255);
   font-size: 23px;
+}
+nav a {
+  text-decoration: none;
+  font-size: 25px;
+  border: 3px solid rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+  background-color: rgb(222, 224, 225);
+  top: 80px;
+  padding: 10px 15px;
+  
+}
+
+nav a:hover {
+  background-color: rgba(156, 161, 156, 0.455);
+  transition: 0.5s;
 }
 
 .menu-item {
